@@ -44,11 +44,12 @@ my $file_types       = {
    'CPP'          => [ 0, 0, 'CPP C' ],
    'C'            => [ 0, 0, 'CPP C'],
    'PL'           => [ 0, 0, 'PERL' ],
-   'H'				=> [ 0, 0, 'CPP C'],
+   'H'            => [ 0, 0, 'CPP C'],
    'RMOD'         => [ 0, 0, 'PERL' ],
    'PM'           => [ 0, 0, 'PERL' ],
    'CGI'          => [ 0, 0, 'PERL' ],
    'M'            => [ 0, 0, 'CPP C'],
+   'MM'           => [ 0, 0, 'CPP C'],
    'ERL'		  => [ 0, 0, 'ERL'],
    };
    
