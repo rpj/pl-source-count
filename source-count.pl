@@ -50,7 +50,10 @@ my $file_types       = {
    'CGI'          => [ 0, 0, 'PERL' ],
    'M'            => [ 0, 0, 'CPP C'],
    'MM'           => [ 0, 0, 'CPP C'],
-   'ERL'		  => [ 0, 0, 'ERL'],
+   'ERL'          => [ 0, 0, 'ERL'],
+   'PY'           => [ 0, 0, 'PERL'],
+   'SH'           => [ 0, 0, 'PERL'],
+   'SWIFT'        => [ 0, 0, 'CPP C'],
    };
    
 GetOptions (
@@ -156,7 +159,7 @@ sub searcher {
                   $cmnt_regex .= '(^\s*\/\*.*\*\/\s*$)', if ($_ eq 'CPP');
                   $cmnt_regex .= '(^\s*\/\/.*$)', if ($_ eq 'C');
                   $cmnt_regex .= '(^\s*#.*$)', if ($_ eq 'PERL');
-				  $cmnt_regex .= '(^\s*%.*$)', if ($_ eq 'ERL');
+              $cmnt_regex .= '(^\s*%.*$)', if ($_ eq 'ERL');
                }
             }
 
