@@ -54,6 +54,7 @@ my $file_types       = {
    'PY'           => [ 0, 0, 'PERL'],
    'SH'           => [ 0, 0, 'PERL'],
    'SWIFT'        => [ 0, 0, 'CPP C'],
+   'CS'           => [ 0, 0, 'CPP C'],
    };
    
 GetOptions (
