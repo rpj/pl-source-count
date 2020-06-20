@@ -19,8 +19,6 @@ my $opt_out_file     = '';
 my $opt_long_out     = 0;
 my $opt_debug        = 0;
 
-# Hmm, yeah, don't change this...
-# bad shiznit goin' down in 'da hood if you do
 my $ARR_CNT_ELE      = 0;
 my $ARR_LOC_ELE      = 1;
 my $ARR_CMNT_ELE     = 2;
@@ -32,8 +30,6 @@ my $global_file_cnt  = 0;
 
 my $defect_high      = 7;
 my $defect_low       = 10;
-
-my $VERSION          = '$Id: source-count.pl,v 1.2 2003/08/06 03:28:58 rjoseph Exp $';
 
 # Quick explanation: 
 # [file extension] => [ file_counter, tloc_counter, comment_style ]
@@ -209,7 +205,6 @@ sub searcher {
 sub __help {
    print <<HELP_TEXT;
 Usage: $0 [options] [dir1 [dir2..]]
-Version $VERSION
 
 NOTE: you can (depending on your shell, but this should work(tm)) specify file
 globs to search, such as: $0 *.java
