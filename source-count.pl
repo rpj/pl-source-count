@@ -55,6 +55,8 @@ my $file_types       = {
    'SH'           => [ 0, 0, 'PERL'],
    'SWIFT'        => [ 0, 0, 'CPP C'],
    'CS'           => [ 0, 0, 'CPP C'],
+   'GO'           => [ 0, 0, 'CPP C'],
+   'JS'           => [ 0, 0, 'CPP C'],
    };
    
 GetOptions (
